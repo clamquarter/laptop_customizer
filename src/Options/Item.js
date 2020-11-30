@@ -5,7 +5,7 @@ import '../App.css'
 export default class Item extends React.Component {
     render() {
         return (
-        <div key={this.props.key} className="feature__item">
+        <div className="feature__item">
            <input
             type="radio"
             id={this.props.id}
